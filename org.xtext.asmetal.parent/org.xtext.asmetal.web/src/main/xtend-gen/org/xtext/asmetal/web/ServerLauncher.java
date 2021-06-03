@@ -29,7 +29,7 @@ public class ServerLauncher {
     WebAppContext _webAppContext = new WebAppContext();
     final Procedure1<WebAppContext> _function = (WebAppContext it) -> {
       it.setResourceBase("src/main/webapp");
-      it.setWelcomeFiles(new String[] { "index.html" });
+      it.setWelcomeFiles(new String[] { "Editor.jsp" });
       it.setContextPath("/");
       AnnotationConfiguration _annotationConfiguration = new AnnotationConfiguration();
       WebXmlConfiguration _webXmlConfiguration = new WebXmlConfiguration();
