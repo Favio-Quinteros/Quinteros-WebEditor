@@ -115,5 +115,12 @@
 			<version>1.7.21</version>
 			<scope>provided</scope>
 		</dependency>
+	<dependency>
+         <groupId>AsmetaS</groupId>
+        <artifactId>AsmetaS</artifactId>
+     	    <scope>system</scope>
+     	    <version>1.0</version>
+     	    <systemPath>${basedir}\src\lib\AsmetaS.jar</systemPath>
+     	    </dependency>
 	</dependencies>
 </project>
